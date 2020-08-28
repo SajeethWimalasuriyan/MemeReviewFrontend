@@ -1,0 +1,76 @@
+.postButton {
+	padding: 7px;
+	border-radius: 50px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	width: 30px;
+	border-style: solid;
+}
+
+.commentBoxContainer {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 200px;
+	background-color: #1e1e1e;
+	min-height: 100vh;
+	height: auto;
+	width: 100vw;
+	z-index: 2;
+	overflow-y: scroll;
+}
+
+.commentCard {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 17vh;
+	background-color: #343a40 !important;
+}
+
+.urlInput {
+	width: 465px;
+	margin-left: 20px;
+}
+
+.previewImage {
+	max-height: 400px;
+}
+
+.postPreview {
+	width: 500px;
+	height: 800px
+}
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	/* Remove scrollbar space */
+	background: transparent;
+	/* Optional: just make scrollbar invisible */
+}
+
+@media only screen and (max-width: 499px) {
+	.commentCard {
+		width: 95vw;
+		margin-top: 69px;
+	}
+	.commentBoxContainer {
+		position: relative;
+		width: 200px;
+		background-color: rgba(78, 78, 78, 0.582);
+		min-height: 100vh;
+		padding-bottom: 21px;
+		width: 100vw;
+		z-index: 2;
+		overflow-y: scroll;
+	}
+	.urlInput {
+		width: 316px;
+		margin-left: 20px;
+	}
+}

@@ -1,0 +1,16 @@
+.bioInformation {
+	word-wrap: break-word;
+}
+
+.afterLoginMainScreen {
+	display: inline;
+	width: 100px;
+}
+
+.spaceAroundAfterLogin {
+	background-color: #343a40;
+	width: 440px;
+	margin-left: 25px;
+	margin-top: 140px;
+	padding: 15px;
+}

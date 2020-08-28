@@ -1,0 +1,30 @@
+.navbarContainer {
+	width: 100vw;
+	z-index: 5;
+	margin-top: 0px;
+	position: fixed;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+	outline: none!important;
+}
+
+.navbar-toggler {
+	border-color: #343a40 !important;
+}
+
+.memeReviewLogo {
+	font-size: 20px;
+	color: white !important;
+}
+
+@media only screen and (max-width: 320px) {
+	.memeReviewLogo {
+		font-size: 19px;
+	}
+}

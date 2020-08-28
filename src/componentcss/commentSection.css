@@ -1,0 +1,5 @@
+.commentBox{
+    max-height:390px;
+    overflow-y: scroll;
+    padding-top:20px; 
+}
