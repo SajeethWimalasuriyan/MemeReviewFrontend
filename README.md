@@ -10,4 +10,6 @@ Meme Review is a social media platform that is centered around memes and rating 
 This side project is not complete. Features such as being able to upload photos and edit memes directly in the web app need to be added, but as of right now the minimum viable product is complete.
 
 ## Website Link:
-https://react-social-2b464.web.app/
+This is the latest version of the site -> https://react-social-2b464.web.app/
+
+For anyone curious here is the old version of the website -> https://meme-reposito.firebaseapp.com/
